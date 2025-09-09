@@ -5,6 +5,13 @@ extends Sprite2D
 var projectile_container:Node
 var player
 
+func _ready():
+	randomize()
+	var screen_size = get_viewport_rect().size
+	var random_x = randf_range(0, screen_size.x)
+	var random_y = randf_range(0, screen_size.y / 2)
+	position = Vector2(random_x, random_y)
+
 func set_values(player, projectile_container):  
 	self.player = player
 	self.projectile_container = projectile_container

@@ -30,3 +30,9 @@ position = Vector2(413.003, 395.272)
 
 [node name="Turret" parent="." instance=ExtResource("5_fos0i")]
 position = Vector2(378, 109)
+
+[node name="Turret2" parent="." instance=ExtResource("5_fos0i")]
+position = Vector2(121, 167)
+
+[node name="Turret3" parent="." instance=ExtResource("5_fos0i")]
+position = Vector2(688, 152)

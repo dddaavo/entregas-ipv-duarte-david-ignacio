@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://dgc305jyn0uhf"]
+
+[ext_resource type="Texture2D" uid="uid://j14wrxanwhni" path="res://assets/textures/player.png" id="1_55263"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lgr22"]
+size = Vector2(64, 174)
+
+[node name="DelimiterBrick" type="StaticBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, -55)
+scale = Vector2(1, 2.71875)
+texture = ExtResource("1_55263")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -55)
+shape = SubResource("RectangleShape2D_lgr22")

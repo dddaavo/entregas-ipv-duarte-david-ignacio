@@ -1,12 +1,9 @@
 res://default_env.tres
 res://Main.tscn
-res://entities/player/Player.tscn
 res://entities/enemies/TurretProjectile.tscn
 res://entities/player/PlayerProjectile.tscn
+res://entities/player/Player.tscn
 res://entities/Projectile.tscn
-res://entities/player/Player.gd
 res://entities/world/floor.tscn
-res://entities/enemies/TurretsSpawner.gd
-res://Main.gd
-res://entities/enemies/Turret.gd
 res://entities/enemies/Turret.tscn
+res://entities/world/delimiter_brick.tscn

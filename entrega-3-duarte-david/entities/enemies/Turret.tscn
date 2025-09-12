@@ -5,7 +5,7 @@
 [ext_resource type="PackedScene" uid="uid://bs55kbwny7fge" path="res://entities/enemies/TurretProjectile.tscn" id="3"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_x15t2"]
-radius = 320.189
+radius = 333.038
 
 [node name="Turret" type="Sprite2D"]
 texture = ExtResource("1")

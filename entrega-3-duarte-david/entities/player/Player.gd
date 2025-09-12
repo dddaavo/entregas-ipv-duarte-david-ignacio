@@ -6,8 +6,8 @@ class_name Player
 @export var ACCELERATION: float = 20.0
 @export var H_SPEED_LIMIT: float = 600.0
 @export var FRICTION_WEIGHT: float = 0.1
-@export var JUMP_SPEED: float = -20.0
-@export var GRAVITY: float = 10
+@export var JUMP_SPEED: float = -300.0
+@export var GRAVITY: float = 10.0
 
 var projectile_container: Node
 
@@ -47,5 +47,8 @@ func _get_input() -> void:
 		# Ternary if: {true code} if {condition} else {false code}
 		velocity.x = lerp(velocity.x, 0.0, FRICTION_WEIGHT) if abs(velocity.x) > 1.0 else 0.0
 	
-	if Input.is_action_just_pressed("jump"):
+	if Input.is_action_just_pressed("jump") && is_on_floor():
+		print("llegue")
+		print(JUMP_SPEED)
+		print(GRAVITY)
 		velocity.y = JUMP_SPEED

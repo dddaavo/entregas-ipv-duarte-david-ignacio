@@ -9,7 +9,7 @@ extends CharacterBody2D
 ## https://docs.godotengine.org/es/stable/tutorials/scripting/scene_unique_nodes.html
 @onready var weapon: Node = $"%Weapon"
 @onready var body_animations: AnimationPlayer = $BodyAnimations
-@onready var body: Sprite2D = $Body
+@onready var d: Sprite2D = $Body
 @onready var pivot: Node2D = $Pivot
 
 @export var ACCELERATION: float = 3750.0 # Lo multiplicamos por delta, asi que es 60.0 / (1.0 / 60.0)

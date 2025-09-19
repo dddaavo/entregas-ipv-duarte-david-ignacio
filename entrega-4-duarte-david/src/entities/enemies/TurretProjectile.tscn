@@ -1,6 +1,7 @@
-[gd_scene load_steps=3 format=3 uid="uid://22mlxu8p1pyp"]
+[gd_scene load_steps=4 format=3 uid="uid://22mlxu8p1pyp"]
 
 [ext_resource type="PackedScene" uid="uid://cgadr55reetnl" path="res://src/entities/Projectile.tscn" id="1"]
+[ext_resource type="Texture2D" uid="uid://bxc58au7b5bdx" path="res://assets/textures/fx/spark/spark-preview1.png" id="2_uid2m"]
 
 [sub_resource type="CircleShape2D" id="1"]
 radius = 8.0
@@ -16,3 +17,7 @@ collision_mask = 3
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Hitbox" index="0"]
 shape = SubResource("1")
+
+[node name="Body" type="Sprite2D" parent="." index="3"]
+scale = Vector2(0.285714, 0.6875)
+texture = ExtResource("2_uid2m")

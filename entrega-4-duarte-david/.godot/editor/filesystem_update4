@@ -4,4 +4,5 @@ res://src/Main.tscn
 res://src/entities/enemies/Turret.tscn
 res://src/entities/Projectile.tscn
 res://src/entities/enemies/TurretProjectile.tscn
-res://src/entities/Projectile.gd
+res://src/entities/player/PlayerProjectile.tscn
+res://src/environment/Floor.tscn

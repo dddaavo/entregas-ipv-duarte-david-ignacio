@@ -1,5 +1,7 @@
+Sprite2D
+ParallaxLayer
+ParallaxBackground
 TileMapLayer
 TileMap
-Sprite2D
 AnimatedSprite2D
 Node2D

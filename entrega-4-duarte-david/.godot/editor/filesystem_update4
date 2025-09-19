@@ -6,3 +6,4 @@ res://src/entities/Projectile.tscn
 res://src/entities/enemies/TurretProjectile.tscn
 res://src/entities/player/PlayerProjectile.tscn
 res://src/environment/Floor.tscn
+res://src/environment/parallax_background.tscn
